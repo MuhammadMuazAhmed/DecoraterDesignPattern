@@ -4,7 +4,7 @@ namespace decorator
 {
     public class Program{
         public static void Main(){
-            Textcomponent text = new Plaintext ("Hello Sir. Nasir");
+            Textcomponent text = new Plaintext ("Hello");
              Textcomponent decorated_text = new Bold_decorator(text);
              Textcomponent decorated_text1 = new Underline_decorator(text);
              Textcomponent decorated_text2 = new Italic_decorator(text);
